@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="my.edu.tarc.lab3.MainActivity">
+    <item
+        android:title="minus"
+        android:orderInCategory="102"
+        android:id="@+id/minus"
+        android:icon="@drawable/ic_action_mius"
+        android:showAsAction="always" />
+    <item
+        android:title="plus"
+        android:orderInCategory="101"
+        android:id="@+id/plus"
+        android:icon="@drawable/ic_action_plus"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="103"
+        android:title="@string/action_settings" />
+</menu>
